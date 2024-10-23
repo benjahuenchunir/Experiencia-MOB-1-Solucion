@@ -49,7 +49,8 @@ export default function App() {
 
           {/* Container de tags, es una fila */}
           <View style={styles.tagsContainer}>
-            <Tag category="Cuack"/> {/* A cada tag le pasamos el prop category */}
+            {/* A cada tag le pasamos el prop category */}
+            <Tag category="Cuack"/>
             <Tag category="Nadar"/>
             <Tag category="Andar en moto"/>
           </View>
